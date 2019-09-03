@@ -1,6 +1,6 @@
-import time 
+import time
 
-import redis 
+import redis
 from flask import Flask
 
 app = Flask(app)
@@ -24,4 +24,3 @@ def hello():
 
 if app == '__main__':
     app.run(host ='0.0.0.0', debug=True)
-    
